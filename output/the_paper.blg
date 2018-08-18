@@ -1,15 +1,15 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'output/the_paper.blg'
-[55] biber-darwin:303> INFO - === Sat Aug 18, 2018, 03:03:46
-[106] Biber.pm:359> INFO - Reading 'output/the_paper.bcf'
-[186] Biber.pm:832> INFO - Using all citekeys in bib section 0
-[197] Biber.pm:3670> INFO - Processing section 0
-[216] Biber.pm:3840> INFO - Looking for bibtex format file 'paper_bib.bib' for section 0
-[219] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[225] bibtex.pm:1292> INFO - Found BibTeX data source 'paper_bib.bib'
-[251] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[251] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[251] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
-[252] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
-[256] bbl.pm:608> INFO - Writing 'output/the_paper.bbl' with encoding 'UTF-8'
-[256] bbl.pm:712> INFO - Output to output/the_paper.bbl
+[49] biber-darwin:303> INFO - === Sat Aug 18, 2018, 03:28:58
+[103] Biber.pm:359> INFO - Reading 'output/the_paper.bcf'
+[190] Biber.pm:832> INFO - Using all citekeys in bib section 0
+[202] Biber.pm:3670> INFO - Processing section 0
+[218] Biber.pm:3840> INFO - Looking for bibtex format file 'paper_bib.bib' for section 0
+[221] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[228] bibtex.pm:1292> INFO - Found BibTeX data source 'paper_bib.bib'
+[254] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[254] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[254] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[254] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[260] bbl.pm:608> INFO - Writing 'output/the_paper.bbl' with encoding 'UTF-8'
+[261] bbl.pm:712> INFO - Output to output/the_paper.bbl
