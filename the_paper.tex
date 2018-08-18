@@ -1,0 +1,78 @@
+% Written by Salvatore S. Calvo
+% last updated August 18, 2018
+
+% begin preamble
+
+% declaring IEEE journal article class
+\documentclass[10pt,journal,letterpaper,final]{IEEEtran}
+
+% adding useful packages
+\usepackage{fontspec,lipsum,hyperref,multicol}
+
+% declaring graphics
+\usepackage{graphicx}
+	\graphicspath{{images/}}
+	\DeclareGraphicsExtensions{.png}
+
+% declaring hyphen rules
+\hyphenation{moist-ur-iz-er on-o-mat-o-poe-ia}
+
+% point to bib file in directory
+\usepackage[backend=biber,
+			style=numeric,
+			sorting=nty]{biblatex}
+\addbibresource{paper_bib.bib}
+
+% this line ensures all citations are included in the printed bibliography
+\nocite{*}
+
+% specify fonts to be used (from fontspec)
+
+% if commented out, LaTeX will select Computer Modern
+% \setmainfont{Times New Roman}[
+% 	Path 				= /Library/Fonts/ ,
+%     Extension 			= .ttf ,
+%     Upright Font 		=  * ,
+%     Bold Font  			=  * Bold ,		 
+%     Italic Font 		=  * Italic
+% ]
+
+% end preamble
+% begin document
+\begin{document}
+
+\title{An Intense Critical Analysis of \textit{Dune}}
+
+\author{
+	\IEEEauthorblockN{\textsc{Salvatore S. Calvo}} \\
+	\IEEEauthorblockA{Stanford University \\
+	                  Management Science \& Engineering Dept. \\
+	                  {\tt salcalvo@stanford.edu}}
+}
+
+\maketitle
+
+\begin{abstract}
+This is an abstract, it belongs here. \lipsum[1]
+\end{abstract}
+
+\section{In the Beginning}
+
+\IEEEPARstart{T}{he} funny about about the price of Apple \cite{black-scholes} right now \cite{didion} is that \lipsum[2]
+
+\section{In the Middle}
+
+\lipsum[3]
+
+\section{In Conclusion...}
+
+\lipsum[4]
+
+% end paper
+
+% begin bibliography
+\printbibliography
+
+%end paper
+\end{document}
+
