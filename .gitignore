@@ -5,3 +5,9 @@ output/the_paper.blg
 output/the_paper.log
 output/the_paper.pdf
 output/the_paper.run.xml
+*.bbl
+output/the.blg
+*.pdf
+output/.DS_Store
+output/the.blg
+output/.DS_Store
